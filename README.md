@@ -28,10 +28,10 @@ Endpoint to create an user row in postgres db. The payload should have the follo
 
 ```json
 {
-  "email": "test@axiomzen.co",
-  "password": "axiomzen",
+  "email": "test@gmail.com",
+  "password": "gmail",
   "firstName": "Alex",
-  "lastName": "Zimmerman"
+  "lastName": "Lee"
 }
 ```
 
@@ -50,8 +50,8 @@ Endpoint to log an user in. The payload should have the following fields:
 
 ```json
 {
-  "email": "test@axiomzen.co",
-  "password": "axiomzen"
+  "email": "test@gmail.com",
+  "password": "gmail"
 }
 ```
 
@@ -71,9 +71,9 @@ The response body should look like:
 {
   "users": [
     {
-      "email": "test@axiomzen.co",
+      "email": "test@gmail.com",
       "firstName": "Alex",
-      "lastName": "Zimmerman"
+      "lastName": "Lee"
     }
   ]
 }
